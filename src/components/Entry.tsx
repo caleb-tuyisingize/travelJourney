@@ -11,6 +11,7 @@ type propType = {
 
 
 export default function Entry({img, title, country, googleMapsLink, dates, text, alt}: propType){
+    console.log(img)
     return(<>
     <article className="flex p-12">
         <div className="w-imageW shrink-0 rounded-md h-imageH overflow-hidden">
@@ -19,7 +20,7 @@ export default function Entry({img, title, country, googleMapsLink, dates, text,
         <div className="mt-onInfo mx-5">
             <div className="flex gap-2">
 
-            <img className="w-6 "  src="../../public/icons/map-marker-2-svgrepo-com.png" alt="map marker icon" />
+            <img className="w-6 "  src="/icons/map-marker-2-svgrepo-com.png" alt="map marker icon" />
             <span className="uppercase">{country}</span>
             <a className="underline mt-1mk leading- text-sm text-linkColor" href={googleMapsLink}>View on Google Maps</a>
             </div>

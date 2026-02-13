@@ -3,8 +3,11 @@ export default function Header(){
     return (
         <>
         <header>
-            <img src={svg} alt="" />
-            <h1>my travel journal</h1>
+            <div className='flex items-center justify-center pt-10 text-white bg-pinkCustom'>
+
+            <img src={svg} alt="globe icon" className='filter invert w-20'/>
+            <h1 className='text-4xl'>my travel journal.</h1>
+            </div>
         </header>
         
         </>

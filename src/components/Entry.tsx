@@ -1,7 +1,7 @@
 
 export default function Entry(){
     return(<>
-    <article className="flex">
+    <article className="flex p-12">
         <div className="w-imageW shrink-0 rounded-md h-imageH overflow-hidden">
         <img className="w-imageWFull object-cover  h-imageFull" src="https://scrimba.com/links/travel-journal-japan-image-url" alt="mount fuji" />
         </div>
